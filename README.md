@@ -30,6 +30,8 @@ Designed with built-in protections to prevent accidental deletion of critical sy
 
 ```bash
 rm.exe -a "C:\ImportantFolder"   # Protect a folder
+rm.exe -d "C:\ImportantFolder"   # Remove protection
+rm.exe -r -f -t "C:\SomeFolder"  # Force delete recursively, terminating locks
 ```
 ## Warning
 This tool can delete files and folders permanently. Use with caution.
@@ -42,8 +44,5 @@ cargo build --release
 ```
 
 ## Pre built binaries
-Go to [Pre built Binaries]()
+Go to [Pre built Binaries](https://github.com/ABI-Compute/RM_tool/releases/tag/v0.2.0)
 
-
-rm.exe -d "C:\ImportantFolder"   # Remove protection
-rm.exe -r -f -t "C:\SomeFolder"  # Force delete recursively, terminating locks
