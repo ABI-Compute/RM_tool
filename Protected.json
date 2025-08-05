@@ -1,0 +1,11 @@
+{
+  "admins": {},
+  "protected": [
+    "C:\\",
+    "C:\\Windows\\**",
+    "C:\\Program Files\\**",
+    "C:\\Program Files (x86)\\**",
+    "C:\\Users\\",
+    "C:\\System32\\**"
+  ]
+}
